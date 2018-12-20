@@ -1,0 +1,1881 @@
+@import url(http://fast.fonts.net/t/1.css?apiType=css&projectid=649fb35e-d728-4c6a-b5ca-4ff6ccbbc693);
+.album-container,
+.header {
+    top: 0;
+    left: 0;
+    position: absolute
+}
+
+.gallery-list,
+.home-list__button-container {
+    -moz-user-select: none;
+    -ms-user-select: none
+}
+
+.artist-overlay__progress-track,
+.gallery-list__progress-track,
+.menu__bg {
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffc832', endColorstr='#ff7d7d', GradientType=1)
+}
+
+.gallery-list__label,
+.home-list__label {
+    text-transform: uppercase;
+    white-space: nowrap
+}
+
+.gallery-list__arrow-button:focus,
+a:active,
+a:focus,
+a:hover {
+    outline: 0
+}
+
+.gallery-list__label,
+.home-button.inactive .home-button__overlay,
+.home-list__button.inactive .home-button__text {
+    -moz-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent
+}
+
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block
+}
+
+body {
+    line-height: 1;
+    background-color: #f9faf4;
+    color: #4B6464;
+    -webkit-text-size-adjust: 100%
+}
+
+ol,
+ul {
+    list-style: none
+}
+
+blockquote,
+q {
+    quotes: none
+}
+
+blockquote:after,
+blockquote:before,
+q:after,
+q:before {
+    content: '';
+    content: none
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+@font-face {
+    font-family: "Neue Plak W01 Regular";
+    src: url(fonts/a3d9d646-58c2-4bbd-90ef-4a3961ff8ae8.eot?#iefix);
+    src: url(fonts/a3d9d646-58c2-4bbd-90ef-4a3961ff8ae8.eot?#iefix) format("eot"), url(fonts/d3335a6e-858a-4bb4-b96d-99238f023ca5.woff2) format("woff2"), url(fonts/9cf260dd-ed6f-46cd-9e3b-ad324e1bca8a.woff) format("woff"), url(fonts/a0c574ec-eab0-45f4-87c9-dbe3b9d1a9b4.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: "Neue Plak W01 SemiBold";
+    src: url(fonts/772f1975-5a1b-4725-bc2e-225794e52d32.eot?#iefix);
+    src: url(fonts/772f1975-5a1b-4725-bc2e-225794e52d32.eot?#iefix) format("eot"), url(fonts/468f9912-6b29-492e-9382-4fe2f45b4940.woff2) format("woff2"), url(fonts/fd9dfea4-8d51-44fa-8c13-0b6ebca873c4.woff) format("woff"), url(fonts/9c905f34-734c-4598-a0d9-6870a5a0361f.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: "Neue Plak W01 Extended SemiBold";
+    src: url(fonts/016bba35-cbd7-4d8d-b13c-42462ad8cf18.eot?#iefix);
+    src: url(fonts/016bba35-cbd7-4d8d-b13c-42462ad8cf18.eot?#iefix) format("eot"), url(fonts/a9bc9985-89d1-45e8-975f-3cadb75e72f7.woff2) format("woff2"), url(fonts/0f7628f2-cac1-4401-ab77-4957345acce2.woff) format("woff"), url(fonts/9b79b3eb-3c60-47bd-8ff6-43f7779e8db0.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: "Neue Plak W01 Wide Regular";
+    src: url(fonts/c1a5267f-4b26-4b80-bcff-407c72a506f2.eot?#iefix);
+    src: url(fonts/c1a5267f-4b26-4b80-bcff-407c72a506f2.eot?#iefix) format("eot"), url(fonts/e0f15b9d-2279-4745-99d7-7ed4c3550348.woff2) format("woff2"), url(fonts/d5745e95-af44-4815-a33c-423319b0250e.woff) format("woff"), url(fonts/d1e7f40e-fd2b-4598-a30c-f81e031abf2f.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: "Neue Plak W01 Wide Bold";
+    src: url(fonts/c92a2088-7ad4-448b-b034-33a4362c5532.eot?#iefix);
+    src: url(fonts/c92a2088-7ad4-448b-b034-33a4362c5532.eot?#iefix) format("eot"), url(fonts/fc32a17c-8d11-4019-8e99-b8016e2073ea.woff2) format("woff2"), url(fonts/13ed11cd-b0de-4b39-b872-a904e3b9b7bd.woff) format("woff"), url(fonts/5626dc9b-da06-497c-a006-ee3782836e9b.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: "Neue Plak W01 Wide ExtraBlack";
+    src: url(fonts/c17c3ddd-81a2-463a-b97e-5666b284cf05.eot?#iefix);
+    src: url(fonts/c17c3ddd-81a2-463a-b97e-5666b284cf05.eot?#iefix) format("eot"), url(fonts/3e9b0642-969c-4734-a046-c0f147ad7c09.woff2) format("woff2"), url(fonts/7e677705-f71c-4184-a9de-2dffccce0bab.woff) format("woff"), url(fonts/2287c984-a296-4f59-9286-fc3e48ded2aa.ttf) format("truetype")
+}
+
+.artist-page__container:after,
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both
+}
+
+.artist-list-grid__link,
+.artist-list-grid__title,
+.artist-page__artist-details,
+.artist-page__grid-album-name,
+.artist-page__grid-number,
+.menu__info,
+.menu__title,
+.neue-plak--regular {
+    font-family: "Neue Plak W01 Regular"
+}
+
+.artist-page__artist-name,
+.neue-plak--extra-wide-black {
+    font-family: "Neue Plak W01 Wide ExtraBlack"
+}
+
+.menu__description,
+.neue-plak--extended-semibold {
+    font-family: 'Neue Plak W01 Extended SemiBold'
+}
+
+.neue-plak--semibold {
+    font-family: 'Neue Plak W01 SemiBold'
+}
+
+.artist-page__grid-band-name,
+.neue-plak--wide-bold {
+    font-family: 'Neue Plak W01 Wide Bold'
+}
+
+.neue-plak--wide-regular {
+    font-family: 'Neue Plak W01 Wide Regular'
+}
+
+*,
+:after,
+:before {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    text-rendering: optimizeLegibility
+}
+
+.clear:after,
+.clear:before {
+    content: ' ';
+    display: table
+}
+
+.clear:after {
+    clear: both
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 21px;
+    font-weight: 400
+}
+
+img {
+    max-width: 100%;
+    vertical-align: bottom
+}
+
+a {
+    color: #000;
+    text-decoration: underline
+}
+
+input:focus {
+    outline: 0;
+    border: 1px solid #04A4CC
+}
+
+.main-container {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden
+}
+
+.svg__logo {
+    width: auto;
+    height: 70px;
+    margin-top: 29px;
+    margin-left: 30px;
+}
+
+.logo path {
+    fill: #4B6464;
+    -webkit-transition: fill .7s linear;
+    -moz-transition: fill .7s linear;
+    transition: fill .7s linear
+}
+
+.logo rect {
+    stroke: #4B6464;
+    -webkit-transition: stroke .7s linear;
+    -moz-transition: stroke .7s linear;
+    transition: stroke .7s linear
+}
+
+@-webkit-keyframes cycleFill {
+    0%,
+    100%,
+    20% {
+        color: #4B6464
+    }
+    50% {
+        color: #FFC832
+    }
+    75% {
+        color: #FF7D7D
+    }
+}
+
+@-moz-keyframes cycleFill {
+    0%,
+    100%,
+    20% {
+        color: #4B6464
+    }
+    50% {
+        color: #FFC832
+    }
+    75% {
+        color: #FF7D7D
+    }
+}
+
+@keyframes cycleFill {
+    0%,
+    100%,
+    20% {
+        color: #4B6464
+    }
+    50% {
+        color: #FFC832
+    }
+    75% {
+        color: #FF7D7D
+    }
+}
+
+.header {
+    z-index: 3
+}
+
+.header.white .menu-button__line {
+    background-color: #FFF
+}
+
+.header.white .logo path,
+.header.white .logo polygon {
+    fill: #FFF
+}
+
+.header.white .logo rect {
+    stroke: #FFF
+}
+
+.header .menu-button {
+    position: absolute;
+    top: 25px;
+    left: 100vw;
+    margin-left: -55px
+}
+
+.header .back-button {
+    display: none;
+    position: absolute;
+    top: 29px;
+    left: 86px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer
+}
+
+.home-list,
+.intro {
+    top: 0;
+    left: 0;
+    position: absolute
+}
+
+.header .back-button polyline,
+.header .back-button rect {
+    stroke: #4B6464;
+    -webkit-transition: stroke .7s linear;
+    -moz-transition: stroke .7s linear;
+    transition: stroke .7s linear
+}
+
+.header .back-button:hover polyline,
+.header .back-button:hover rect {
+    stroke: #FF7D7D
+}
+
+.intro {
+    width: 100%;
+    height: 100%;
+    z-index: 10
+}
+
+.home-list {
+    width: 0;
+    z-index: 1
+}
+
+.home-list__button-container {
+    position: absolute;
+    top: -.5vh;
+    width: 0;
+    height: 0;
+    -webkit-user-select: none;
+    user-select: none
+}
+
+.home-list__label {
+    font-size: 1.65vh;
+    font-family: "Neue Plak W01 Extended SemiBold";
+    letter-spacing: .2em;
+    color: #4B6464;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    position: absolute;
+    left: 29px;
+    top: 50%;
+    -webkit-transform-origin: top left;
+    -moz-transform-origin: top left;
+    -ms-transform-origin: top left;
+    transform-origin: top left
+}
+
+.gallery-footer,
+.gallery-list__label {
+    font-family: "Neue Plak W01 Wide ExtraBlack";
+    text-align: center
+}
+
+@media all and (min-height:600px) {
+    .home-list__label {
+        font-size: 12px
+    }
+}
+
+@media all and (min-height:800px) {
+    .home-list__label {
+        font-size: 14px
+    }
+}
+
+@media all and (min-width:500px) {
+    .home-list__label {
+        left: 48px
+    }
+}
+
+.home-list__button {
+    display: table
+}
+
+.home-list__button.label .home-button__text {
+    color: #FFC832
+}
+
+.home-list__button.active {
+    cursor: pointer
+}
+
+.home-list__button.active .home-button__text {
+    -webkit-transition: color .5s ease-in-out;
+    -moz-transition: color .5s ease-in-out;
+    transition: color .5s ease-in-out
+}
+
+.home-list__button.inactive .home-button__text {
+    -moz-text-stroke-width: 1px;
+    -moz-text-stroke-color: #E6EBD2;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #E6EBD2
+}
+
+@media all and (min-height:500px) {
+    .home-list__button.inactive .home-button__text {
+        -moz-text-stroke-width: 2px;
+        -webkit-text-stroke-width: 2px
+    }
+}
+
+.home-list__button.inactive:nth-child(1) .home-button__text {
+    -moz-text-stroke-color: #FFC94C;
+    -webkit-text-stroke-color: #FFC94C
+}
+
+.home-list__button.inactive:nth-child(2) .home-button__text {
+    -moz-text-stroke-color: #FEC056;
+    -webkit-text-stroke-color: #FEC056
+}
+
+.home-list__button.inactive:nth-child(3) .home-button__text {
+    -moz-text-stroke-color: #FCB85F;
+    -webkit-text-stroke-color: #FCB85F
+}
+
+.home-list__button.inactive:nth-child(4) .home-button__text {
+    -moz-text-stroke-color: #FAAF66;
+    -webkit-text-stroke-color: #FAAF66
+}
+
+.home-list__button.inactive:nth-child(5) .home-button__text {
+    -moz-text-stroke-color: #F9A66C;
+    -webkit-text-stroke-color: #F9A66C
+}
+
+.home-list__button.inactive:nth-child(6) .home-button__text {
+    -moz-text-stroke-color: #F89E70;
+    -webkit-text-stroke-color: #F89E70
+}
+
+.home-list__button.inactive:nth-child(7) .home-button__text {
+    -moz-text-stroke-color: #F79574;
+    -webkit-text-stroke-color: #F79574
+}
+
+.home-list__button.inactive:nth-child(8) .home-button__text {
+    -moz-text-stroke-color: #F58D78;
+    -webkit-text-stroke-color: #F58D78
+}
+
+.home-list__button.inactive:nth-child(9) .home-button__text {
+    -moz-text-stroke-color: #F4847B;
+    -webkit-text-stroke-color: #F4847B
+}
+
+.home-list__button.inactive:nth-child(10) .home-button__text {
+    -moz-text-stroke-color: #F37B7E;
+    -webkit-text-stroke-color: #F37B7E
+}
+
+.home-list__button.error-click .home-button__text {
+    -moz-text-stroke-color: #FF7D7D;
+    -webkit-text-stroke-color: #FF7D7D
+}
+
+.home-list__button:nth-child(1) .home-button__text {
+    color: #FFC94C
+}
+
+.home-list__button:nth-child(2) .home-button__text {
+    color: #FEC056
+}
+
+.home-list__button:nth-child(3) .home-button__text {
+    color: #FCB85F
+}
+
+.home-list__button:nth-child(4) .home-button__text {
+    color: #FAAF66
+}
+
+.home-list__button:nth-child(5) .home-button__text {
+    color: #F9A66C
+}
+
+.home-list__button:nth-child(6) .home-button__text {
+    color: #F89E70
+}
+
+.home-list__button:nth-child(7) .home-button__text {
+    color: #F79574
+}
+
+.home-list__button:nth-child(8) .home-button__text {
+    color: #F58D78
+}
+
+.home-list__button:nth-child(9) .home-button__text {
+    color: #F4847B
+}
+
+.home-list__button:nth-child(10) .home-button__text {
+    color: #F37B7E
+}
+
+.artist-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 2
+}
+
+.touch .artist-overlay {
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch
+}
+
+.artist-overlay__tint {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    background-color: #FF7D7D
+}
+
+.artist-overlay__bg {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: #E6EBD2
+}
+
+.artist-overlay__content {
+    position: relative;
+    z-index: 2
+}
+
+.artist-overlay__progress-track {
+    position: absolute;
+    width: 6px;
+    height: 80vh;
+    top: 80px;
+    right: 38px;
+    border-radius: 3px;
+    z-index: 2;
+    background-color: #FFC832;
+    background: -moz-linear-gradient(top, #ffc832 0, #ff7d7d 100%);
+    background: -webkit-linear-gradient(top, #ffc832 0, #ff7d7d 100%);
+    background: linear-gradient(to bottom, #ffc832 0, #ff7d7d 100%)
+}
+
+.touch .artist-overlay__progress-track {
+    display: none
+}
+
+@media all and (max-width:767px) {
+    .artist-overlay__progress-track {
+        display: none
+    }
+}
+
+.artist-overlay__progress-bar {
+    position: absolute;
+    width: 100%;
+    height: 5vh;
+    border-radius: 3px;
+    background-color: #4B6464
+}
+
+.menu,
+.menu-bg {
+    display: none;
+    position: fixed
+}
+
+.menu-bg {
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    z-index: 1;
+    opacity: 0
+}
+
+.menu,
+.menu__tint {
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100%
+}
+
+.menu {
+    z-index: 2
+}
+
+.menu__tint {
+    position: absolute;
+    opacity: 0;
+    background-color: #4B6464
+}
+
+.menu__bg {
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #FFC832;
+    background: -moz-linear-gradient(top, #ffc832 10%, #ff7d7d 90%);
+    background: -webkit-linear-gradient(top, #ffc832 10%, #ff7d7d 90%);
+    background: linear-gradient(to bottom, #ffc832 10%, #ff7d7d 90%)
+}
+
+.menu__container {
+    width: 100%;
+    height: 100%;
+    padding: 100px 30px 30px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch
+}
+
+@media all and (min-width:1005px) {
+    .menu__container {
+        overflow: hidden;
+        padding: 0;
+        width: 950px;
+        height: 450px
+    }
+}
+
+@media all and (min-width:1105px) {
+    .menu__container {
+        width: 1050px
+    }
+}
+
+.menu__about-container {
+    width: 100%;
+    position: relative;
+    margin-bottom: 80px;
+    color: #4B6464
+}
+
+@media all and (min-width:1005px) {
+    .menu__about-container {
+        width: 340px;
+        height: 414px;
+        float: left;
+        margin-bottom: 0
+    }
+}
+
+.menu__title {
+    font-size: 21px;
+    line-height: 1em;
+    font-weight: 400;
+    margin: 0 0 40px;
+    padding: 0
+}
+
+.menu__description {
+    margin: 0;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 1.12em
+}
+
+@media all and (min-width:1005px) {
+    .menu__description {
+        font-size: 20px
+    }
+}
+
+@media all and (min-width:1105px) {
+    .menu__about-container {
+        width: 380px
+    }
+    .menu__description {
+        font-size: 24px
+    }
+}
+
+.menu__info-container {
+    width: 100%;
+    margin-top: 50px
+}
+
+@media all and (min-width:1005px) {
+    .menu__info-container {
+        margin-top: 0;
+        position: absolute;
+        bottom: 0
+    }
+}
+
+.menu__info {
+    line-height: 1.3em;
+    margin-bottom: 8px
+}
+
+.menu__info a {
+    color: #4B6464;
+    text-decoration: none;
+    border-bottom: 1px solid #4B6464;
+    -webkit-transition: border-color .5s linear;
+    -moz-transition: border-color .5s linear;
+    transition: border-color .5s linear
+}
+
+.no-touch .menu__info a:hover,
+.touch .menu__info a:active {
+    border-color: transparent
+}
+
+.menu-button {
+    width: 28px;
+    height: 28px;
+    cursor: pointer
+}
+
+.no-touch .menu-button:hover .menu-button__line,
+.touch .menu-button:active .menu-button__line {
+    background-color: #FF7D7D
+}
+
+.menu-button__line {
+    position: absolute;
+    width: 22px;
+    height: 2px;
+    background-color: #4B6464;
+    -webkit-transition: background-color .5s linear;
+    -moz-transition: background-color .5s linear;
+    transition: background-color .5s linear
+}
+
+.gallery-list,
+.gallery-list__mask {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    position: absolute
+}
+
+.menu-button__line:nth-child(1) {
+    -webkit-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    transform-origin: 0 0
+}
+
+.menu-button__line:nth-child(3) {
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    transform-origin: 0 100%
+}
+
+.gallery-list {
+    -webkit-user-select: none;
+    user-select: none;
+    z-index: 0
+}
+
+.gallery-list__mask {
+    z-index: 1!important;
+    overflow: hidden
+}
+
+.gallery-list__mask.reveal {
+    overflow: visible
+}
+
+.gallery-list__centering-container {
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.gallery-list__progress-track {
+    position: absolute;
+    width: 70vw;
+    margin-left: -35vw;
+    height: 6px;
+    top: 36px;
+    left: 50%;
+    border-radius: 3px;
+    background-color: #FFC832;
+    background: -moz-linear-gradient(left, #ffc832 0, #ff7d7d 100%);
+    background: -webkit-linear-gradient(left, #ffc832 0, #ff7d7d 100%);
+    background: linear-gradient(to right, #ffc832 0, #ff7d7d 100%)
+}
+
+.gallery-list__progress-hit-area {
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    margin-top: -22px;
+    margin-left: 0;
+    z-index: 1;
+    cursor: pointer
+}
+
+.gallery-list__progress-bar {
+    position: absolute;
+    width: 5vw;
+    height: 100%;
+    border-radius: 3px;
+    background-color: #4B6464;
+    pointer-events: none
+}
+
+.gallery-list__album-container {
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    top: 0;
+    left: 0;
+    z-index: 1
+}
+
+.gallery-list__home-album {
+    box-shadow: 0 3px 10px rgba(0, 0, 0, .15);
+    cursor: pointer
+}
+
+.gallery-list__label {
+    position: absolute;
+    z-index: 0;
+    width: 80vw;
+    height: 30vh;
+    top: 50vh;
+    left: 50vw;
+    margin-left: -40vw;
+    font-size: 30vh;
+    line-height: .7em;
+    -moz-text-stroke-width: 3px;
+    -moz-text-stroke-color: #4B6464;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #4B6464;
+    opacity: .25
+}
+
+@media all and (orientation:portrait) {
+    .gallery-list__label {
+        font-size: 25vw;
+        height: auto;
+        margin-top: -2vh
+    }
+}
+
+.gallery-list__arrow-button {
+    cursor: pointer;
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    top: 100%;
+    margin-top: -63px;
+    left: 50%;
+    border: 2px solid #4B6464;
+    background-color: transparent;
+    -webkit-transition: border-color .7s linear, background-color .7s linear, opacity .4s linear;
+    -moz-transition: border-color .7s linear, background-color .7s linear, opacity .4s linear;
+    transition: border-color .7s linear, background-color .7s linear, opacity .4s linear
+}
+
+.touch .gallery-list__arrow-button,
+.touch .gallery-list__arrow-button:after,
+.touch .gallery-list__arrow-button:before {
+    -webkit-transition: none;
+    -moz-transition: none;
+    transition: none
+}
+
+.no-touch .gallery-list__arrow-button:hover,
+.no-touch .gallery-list__arrow-button:hover:after,
+.no-touch .gallery-list__arrow-button:hover:before,
+.touch .gallery-list__arrow-button:active,
+.touch .gallery-list__arrow-button:active:after,
+.touch .gallery-list__arrow-button:active:before {
+    border-color: #FF7D7D
+}
+
+.gallery-list__arrow-button.inactive:after,
+.no-touch .gallery-list__arrow-button:hover.inactive,
+.no-touch .gallery-list__arrow-button:hover.inactive:after,
+.no-touch .gallery-list__arrow-button:hover.inactive:before,
+.touch .gallery-list__arrow-button:active.inactive,
+.touch .gallery-list__arrow-button:active.inactive:after,
+.touch .gallery-list__arrow-button:active.inactive:before {
+    border-color: #E6EBD2
+}
+
+.gallery-list__arrow-button.inactive {
+    background-color: transparent;
+    border-color: #E6EBD2
+}
+
+.gallery-list__arrow-button--left:after,
+.gallery-list__arrow-button--right:after {
+    content: "";
+    width: 11px;
+    height: 11px;
+    top: 11px;
+    border-top: 2px solid #4B6464;
+    border-right: 2px solid #4B6464;
+    position: absolute
+}
+
+.gallery-list__arrow-button--left {
+    margin-left: -45px
+}
+
+.gallery-list__arrow-button--left:after {
+    left: 13px;
+    -webkit-transition: border-color .7s linear;
+    -moz-transition: border-color .7s linear;
+    transition: border-color .7s linear;
+    -webkit-transform: rotate(-135deg);
+    -moz-transform: rotate(-135deg);
+    -ms-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    transform-origin: 50% 50%
+}
+
+.gallery-list__arrow-button--right {
+    margin-left: 8px
+}
+
+.gallery-list__arrow-button--right:after {
+    left: 9px;
+    -webkit-transition: border-color .7s linear;
+    -moz-transition: border-color .7s linear;
+    transition: border-color .7s linear;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    transform-origin: 50% 50%
+}
+
+.gallery-list__arrow-button-hit-area {
+    position: absolute;
+    width: 160%;
+    height: 160%;
+    top: -30%;
+    left: -30%;
+    border-radius: 50%
+}
+
+.gallery-footer {
+    position: absolute;
+    width: 100vw;
+    top: 0;
+    font-size: 1vw
+}
+
+.gallery-footer__footer-text-container {
+    position: absolute;
+    width: 80vw;
+    text-align: center;
+    left: 50%;
+    margin-left: -40vw
+}
+
+.gallery-footer__footer-section {
+    margin-bottom: 45px
+}
+
+.gallery-footer__footer-section:last-child {
+    margin-bottom: 0
+}
+
+.gallery-footer__footer-headline {
+    font-family: "Neue Plak W01 Regular";
+    font-size: 18px;
+    margin-bottom: 5px;
+    display: block
+}
+
+.gallery-footer__footer-link,
+.home-button__overlay,
+.home-button__text {
+    font-family: "Neue Plak W01 Wide ExtraBlack";
+    text-transform: uppercase
+}
+
+@media all and (min-width:500px) {
+    .gallery-footer__footer-text-container {
+        width: 50vw;
+        margin-left: -25vw
+    }
+    .gallery-footer__footer-headline {
+        font-size: 20px
+    }
+}
+
+.gallery-footer__footer-link {
+    display: block;
+    font-size: 21px;
+    cursor: pointer;
+    -webkit-transition: color .7s linear;
+    -moz-transition: color .7s linear;
+    transition: color .7s linear
+}
+
+.no-touch .gallery-footer__footer-link:hover,
+.touch .gallery-footer__footer-link:active {
+    color: #F37B7E
+}
+
+@media all and (min-width:500px) {
+    .gallery-footer__footer-link {
+        font-size: 30px
+    }
+}
+
+.touch .home-button {
+    -webkit-tap-highlight-color: transparent
+}
+
+.touch .home-button__text {
+    -webkit-transition: none;
+    -moz-transition: none;
+    transition: none
+}
+
+.touch .home-button__text:active {
+    color: #4B6464
+}
+
+.home-button {
+    margin-left: 81px;
+    position: relative
+}
+
+@media all and (min-width:600px) {
+    .home-button {
+        margin-left: 120px
+    }
+}
+
+@media all and (min-width:1220px) {
+    .home-button {
+        margin-left: 9vw
+    }
+}
+
+.home-button__overlay,
+.home-button__text {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11.5vh;
+    line-height: .5em;
+    vertical-align: top;
+    padding-bottom: .35em
+}
+
+.home-button__mask {
+    position: relative;
+    top: 0;
+    left: 0;
+    overflow: hidden
+}
+
+.home-button__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    white-space: nowrap;
+    z-index: 1;
+    color: transparent;
+    opacity: 0;
+    display: none;
+    -webkit-animation-name: cycleFill;
+    -moz-animation-name: cycleFill;
+    animation-name: cycleFill;
+    -webkit-animation-duration: 6s;
+    -moz-animation-duration: 6s;
+    animation-duration: 6s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    animation-iteration-count: infinite
+}
+
+.home-button.inactive .home-button__overlay {
+    -moz-text-stroke-width: 2px;
+    -moz-text-stroke-color: #FF7D7D;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #FF7D7D
+}
+
+.home-button:nth-child(1).inactive .home-button__overlay {
+    -moz-text-stroke-color: #FFC94C;
+    -webkit-text-stroke-color: #FFC94C
+}
+
+.home-button:nth-child(2).inactive .home-button__overlay {
+    -moz-text-stroke-color: #FEC056;
+    -webkit-text-stroke-color: #FEC056
+}
+
+.home-button:nth-child(3).inactive .home-button__overlay {
+    -moz-text-stroke-color: #FCB85F;
+    -webkit-text-stroke-color: #FCB85F
+}
+
+.home-button:nth-child(4).inactive .home-button__overlay {
+    -moz-text-stroke-color: #FAAF66;
+    -webkit-text-stroke-color: #FAAF66
+}
+
+.home-button:nth-child(5).inactive .home-button__overlay {
+    -moz-text-stroke-color: #F9A66C;
+    -webkit-text-stroke-color: #F9A66C
+}
+
+.home-button:nth-child(6).inactive .home-button__overlay {
+    -moz-text-stroke-color: #F89E70;
+    -webkit-text-stroke-color: #F89E70
+}
+
+.home-button:nth-child(7).inactive .home-button__overlay {
+    -moz-text-stroke-color: #F79574;
+    -webkit-text-stroke-color: #F79574
+}
+
+.home-button:nth-child(8).inactive .home-button__overlay {
+    -moz-text-stroke-color: #F58D78;
+    -webkit-text-stroke-color: #F58D78
+}
+
+.home-button:nth-child(9).inactive .home-button__overlay {
+    -moz-text-stroke-color: #F4847B;
+    -webkit-text-stroke-color: #F4847B
+}
+
+.home-button:nth-child(10).inactive .home-button__overlay {
+    -moz-text-stroke-color: #F37B7E;
+    -webkit-text-stroke-color: #F37B7E
+}
+
+.album {
+    position: absolute;
+    height: 100%
+}
+
+.album:first-child {
+    background-color: transparent
+}
+
+.album.yellow .album__image-container {
+    background-color: #FFC832
+}
+
+.album.pink .album__image-container {
+    background-color: #FF7D7D
+}
+
+.album.green .album__image-container {
+    background-color: #4B6464
+}
+
+.album.green-light .album__image-container {
+    background-color: #E6EBD2
+}
+
+.album__image-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, .15);
+    background-image: url(../img/10x18-logo.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 51px 20px
+}
+
+.album.hide-shadow .album__image-container {
+    box-shadow: none
+}
+
+.album__image {
+    width: 100%;
+    height: 100%
+}
+
+.album__album-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    pointer-events: none
+}
+
+.album__album-overlay-text {
+    position: absolute;
+    width: 100%;
+    color: #E6EBD2;
+    font-family: "Neue Plak W01 Regular";
+    font-size: 3.5vh;
+    line-height: 1.2em;
+    text-align: center;
+    z-index: 1;
+    padding: 0 20%;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%)
+}
+
+.album__band-name,
+.album__day-number {
+    line-height: 1em;
+    left: 0;
+    position: absolute
+}
+
+.album__album-overlay-text--small {
+    font-size: 2.8vh;
+    padding: 0 10%
+}
+
+.album__quote-author {
+    font-size: 2vh;
+    color: #FF7D7D;
+    margin-top: 15px
+}
+
+.album__album-overlay-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #4B6464;
+    opacity: .98
+}
+
+.album__day-number {
+    font-family: "Neue Plak W01 SemiBold";
+    font-size: 1.4vh;
+    font-size: 14px;
+    bottom: auto;
+    margin-top: -2px;
+    top: 3px
+}
+
+@media all and (min-width:375px) {
+    .album__day-number {
+        margin-top: 0
+    }
+}
+
+@media all and (min-width:500px) {
+    .album__day-number {
+        font-size: 1.4vh;
+        margin-top: -.3em;
+        bottom: 0;
+        top: 1em
+    }
+}
+
+.album__band-name {
+    padding-left: 22px;
+    font-size: 14px;
+    margin-top: 16px;
+    font-family: 'Neue Plak W01 Wide Bold';
+    width: 60%
+}
+
+.album__album-name,
+.album__designer-name {
+    font-family: "Neue Plak W01 Regular"
+}
+
+@media all and (min-width:375px) {
+    .album__band-name {
+        font-size: 18px;
+        margin-top: 14px;
+        padding-left: 30px
+    }
+}
+
+@media all and (min-width:500px) {
+    .album__band-name {
+        font-size: 2.5vh;
+        margin-top: 26px;
+        width: 70%;
+        padding-left: 45px
+    }
+}
+
+@media all and (min-height:635px) {
+    .album__band-name {
+        margin-top: 29px
+    }
+}
+
+.album__album-name {
+    font-size: 14px;
+    line-height: 1.1em;
+    margin-top: 5px;
+    width: 130%
+}
+
+@media all and (min-width:375px) {
+    .album__album-name {
+        font-size: 16px
+    }
+}
+
+@media all and (min-width:500px) {
+    .album__album-name {
+        font-size: 2vh
+    }
+}
+
+.album__designer-name {
+    position: absolute;
+    right: 0;
+    margin-top: 17px;
+    font-size: 14px
+}
+
+@media all and (min-width:500px) {
+    .album__designer-name {
+        font-size: 1.4vh
+    }
+}
+
+@media all and (min-height:635px) {
+    .album__designer-name {
+        margin-top: 32px
+    }
+}
+
+.album__designer-name span {
+    cursor: pointer;
+    border-bottom: 1px solid #4B6464;
+    -webkit-transition: border-color .3s linear, color .3s linear;
+    -moz-transition: border-color .3s linear, color .3s linear;
+    transition: border-color .3s linear, color .3s linear
+}
+
+.no-touch .album__designer-name:hover span {
+    color: #FF7D7D;
+    border-color: #FF7D7D
+}
+
+.album-montage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none
+}
+
+.album-montage__album {
+    position: absolute;
+    background-color: #FFC832;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, .15)
+}
+
+.album-montage__album img {
+    width: 100%;
+    height: 100%
+}
+
+.album-montage__album--1 {
+    width: 40vh;
+    height: 40vh;
+    top: -10vh;
+    left: 60vw;
+    z-index: 1
+}
+
+.album-montage__album--2 {
+    width: 30vh;
+    height: 30vh;
+    top: 38vh;
+    left: 50vw;
+    z-index: 1
+}
+
+.album-montage__album--3 {
+    width: 22vh;
+    height: 22vh;
+    top: 38vh;
+    left: 50vw;
+    z-index: 0;
+    margin-left: 12vw;
+    margin-top: 22vh
+}
+
+.album-slideshow {
+    position: absolute;
+    background-color: #FFF;
+    z-index: 1;
+    top: 0;
+    left: 0
+}
+
+.no-touch .album-slideshow:hover .album-slideshow__label {
+    color: #FF7D7D
+}
+
+.no-touch .album-slideshow:hover .album-slideshow__label span {
+    margin-left: 6px
+}
+
+.album-slideshow img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    z-index: 0;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out
+}
+
+.album-slideshow img.show {
+    opacity: 1;
+    z-index: 1
+}
+
+.album-slideshow__label {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    position: absolute;
+    bottom: -5.5vh;
+    left: 0;
+    font-size: 2.2vh;
+    line-height: 1em;
+    font-family: 'Neue Plak W01 Wide Bold';
+    color: #4B6464;
+    -webkit-transition: color .5s linear;
+    -moz-transition: color .5s linear;
+    transition: color .5s linear
+}
+
+.album-slideshow__label span {
+    -webkit-transition: margin-left .4s ease-in-out;
+    -moz-transition: margin-left .4s ease-in-out;
+    transition: margin-left .4s ease-in-out
+}
+
+.album-strip {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%
+}
+
+@media all and (min-width:1005px) {
+    .artist-list-grid.menu-parent {
+        width: 570px;
+        height: 415px;
+        float: right
+    }
+}
+
+.artist-list-grid.footer .artist-list-grid__title {
+    text-align: center
+}
+
+.artist-list-grid__title {
+    text-align: left;
+    font-size: 21px;
+    line-height: 1em;
+    font-weight: 400;
+    margin: 0 0 40px;
+    padding: 0;
+    color: #4B6464
+}
+
+.artist-list-grid__list-item {
+    width: 50%;
+    height: 33px;
+    float: left;
+    font-size: 14px
+}
+
+@media all and (max-width:560px) {
+    .artist-list-grid__list-item:nth-child(2n) {
+        padding-left: 4vw
+    }
+}
+
+@media all and (min-width:560px) {
+    .artist-list-grid__list-item {
+        width: 33%
+    }
+}
+
+.artist-list-grid__link {
+    font-size: 12px;
+    color: #4B6464;
+    text-decoration: none;
+    cursor: pointer;
+    border-bottom: 1px solid #4B6464;
+    -webkit-transition: border-color .5s linear;
+    -moz-transition: border-color .5s linear;
+    transition: border-color .5s linear
+}
+
+.artist-list-grid__link:hover {
+    border-color: transparent
+}
+
+@media all and (min-width:375px) {
+    .artist-list-grid__link {
+        font-size: 14px
+    }
+}
+
+.artist-page {
+    padding-top: 80px
+}
+
+.artist-page__container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 30px
+}
+
+@media all and (min-width:768px) {
+    .artist-page__container {
+        padding: 0;
+        width: 600px
+    }
+}
+
+@media all and (min-width:1170px) {
+    .artist-page__container {
+        width: 1000px
+    }
+}
+
+.artist-page__grid-item {
+    margin-bottom: 50px;
+    line-height: 1.3em
+}
+
+.artist-page__grid-item.inactive .artist-page__grid-number {
+    position: static
+}
+
+@media all and (min-width:768px) and (max-width:1169px) {
+    .artist-page__grid-item {
+        width: 290px;
+        min-height: 290px;
+        float: left;
+        margin-right: 20px
+    }
+    .artist-page__grid-item:nth-child(11),
+    .artist-page__grid-item:nth-child(3),
+    .artist-page__grid-item:nth-child(5),
+    .artist-page__grid-item:nth-child(7),
+    .artist-page__grid-item:nth-child(9) {
+        margin-right: 0
+    }
+}
+
+@media all and (min-width:1170px) {
+    .artist-page__grid-item {
+        width: 320px;
+        min-height: 320px;
+        float: left;
+        margin-right: 20px
+    }
+    .artist-page__grid-item:nth-child(11),
+    .artist-page__grid-item:nth-child(2),
+    .artist-page__grid-item:nth-child(5),
+    .artist-page__grid-item:nth-child(8) {
+        margin-right: 0
+    }
+    .artist-page__grid-item:nth-child(12),
+    .artist-page__grid-item:nth-child(3),
+    .artist-page__grid-item:nth-child(6),
+    .artist-page__grid-item:nth-child(9) {
+        clear: left
+    }
+}
+
+.artist-page__grid-item--double-width {
+    width: 100%;
+    min-height: 0;
+    position: relative
+}
+
+@media all and (min-width:1170px) {
+    .artist-page__grid-item--double-width {
+        width: 660px;
+        min-height: 320px
+    }
+}
+
+.artist-page__grid-item img {
+    width: 100%;
+    background-color: #4B6464;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, .2);
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.artist-page__grid-item img.bg-image {
+    position: static;
+    opacity: .5
+}
+
+.artist-page__grid-item img.disabled {
+    cursor: auto;
+    box-shadow: none
+}
+
+@media all and (min-width:768px) {
+    .artist-page__grid-item img {
+        width: 290px;
+        height: 290px
+    }
+}
+
+.artist-page__artist-name {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1em
+}
+
+@media all and (min-width:500px) {
+    .artist-page__artist-name {
+        font-size: 50px
+    }
+}
+
+.artist-page__artist-details {
+    margin-top: 30px
+}
+
+@media all and (min-width:1170px) {
+    .artist-page__grid-item img {
+        width: 320px;
+        height: 320px
+    }
+    .artist-page__artist-details {
+        margin-top: 0;
+        position: absolute;
+        bottom: 0;
+        left: 0
+    }
+}
+
+.artist-page__artist-location {
+    font-size: 16px
+}
+
+.artist-page__artist-website {
+    display: inline-block;
+    font-size: 16px;
+    text-decoration: none;
+    border-bottom: 1px solid #4B6464;
+    line-height: 1.8em;
+    color: #4B6464;
+    -webkit-transition: border-color .5s linear, color .5s linear;
+    -moz-transition: border-color .5s linear, color .5s linear;
+    transition: border-color .5s linear, color .5s linear
+}
+
+.artist-page__artist-website:hover {
+    color: #FF7D7D;
+    border-color: #FF7D7D
+}
+
+.artist-page__grid-number {
+    margin-top: 16px;
+    font-size: 14px;
+    position: absolute
+}
+
+.artist-page__grid-album-name,
+.artist-page__grid-band-name {
+    font-size: 16px;
+    line-height: 1.3em;
+    padding-left: 30px
+}
+
+.artist-page__grid-band-name {
+    margin-top: 15px
+}
+
+.artist-page-footer {
+    position: absolute;
+    font-size: 1vw;
+    font-family: "Neue Plak W01 Wide ExtraBlack";
+    text-align: center
+}
+
+.artist-page-footer__footer-text-container {
+    position: absolute;
+    width: 80vw;
+    text-align: center;
+    left: 50%;
+    margin-left: -40vw
+}
+
+.artist-page-footer__footer-section {
+    margin-bottom: 45px
+}
+
+.artist-page-footer__footer-section:last-child {
+    margin-bottom: 0
+}
+
+.artist-page-footer__footer-headline {
+    font-family: "Neue Plak W01 Regular";
+    font-size: 18px;
+    margin-bottom: 5px;
+    display: block
+}
+
+@media all and (min-width:500px) {
+    .artist-page-footer__footer-text-container {
+        width: 50vw;
+        margin-left: -25vw
+    }
+    .artist-page-footer__footer-headline {
+        font-size: 20px
+    }
+}
+
+.artist-page-footer__footer-link {
+    display: block;
+    font-family: "Neue Plak W01 Wide ExtraBlack";
+    font-size: 21px;
+    cursor: pointer;
+    text-transform: uppercase;
+    -webkit-transition: color .7s linear;
+    -moz-transition: color .7s linear;
+    transition: color .7s linear
+}
+
+.no-touch .artist-page-footer__footer-link:hover,
+.touch .artist-page-footer__footer-link:active {
+    color: #F37B7E
+}
+
+@media all and (min-width:500px) {
+    .artist-page-footer__footer-link {
+        font-size: 30px
+    }
+}
