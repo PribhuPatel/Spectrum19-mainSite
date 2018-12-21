@@ -12,6 +12,7 @@
     margin-top: 10px; 
     font-size: 20px; 
     font-family: "Neue Plak W01 Regular";
+    padding-left: 20px; 
 }
 
 /* Rules Title */
@@ -34,11 +35,27 @@
     margin-top: 10px; 
     font-size: 25px;
     font-family: "Neue Plak W01 Extended SemiBold";
+    padding-top: 10px;
+    padding-left: 20px;
 }
 
 /* Round Description */
-.artist-page__artist-name-rounddetails {
+.artist-page__artist-name-rounddetails, .artist-page__artist-name-rounddetails-underlinetext {
     margin-top: 10px; 
     font-size: 20px; 
     font-family: "Neue Plak W01 Regular";
+    padding-left: 30px;
+    text-align: justify;
+}
+
+.artist-page__underline {
+    margin-top: 5px;
+    height: 3px;
+    width: 50px;
+    background-color: #4B6464;
+}
+
+.artist-page__artist-name-rounddetails-underlinetext {
+    text-decoration: underline; 
+    text-decoration-color: #4B6464;
 }
