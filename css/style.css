@@ -1,0 +1,44 @@
+/* Event Title */
+
+.artist-page__artist-name-title {
+    font-family: "Neue Plak W01 Extended SemiBold";
+    margin-top: 20px; 
+    font-size: 30px;
+}
+
+/* Event About Details */
+
+.artist-page__artist-name-about {
+    margin-top: 10px; 
+    font-size: 20px; 
+    font-family: "Neue Plak W01 Regular";
+}
+
+/* Rules Title */
+
+.artist-page__artist-name-rules {
+    margin-top: 20px; 
+    font-size: 30px;
+    font-family: "Neue Plak W01 Extended SemiBold";
+}
+
+/* Rules Details */
+.artist-page__artist-name-rulesdetails {
+    margin-top: 10px; 
+    font-size: 20px; 
+    font-family: "Neue Plak W01 Regular";
+}
+
+/* Round Title */
+.artist-page__artist-name-roundtitle {
+    margin-top: 10px; 
+    font-size: 25px;
+    font-family: "Neue Plak W01 Extended SemiBold";
+}
+
+/* Round Description */
+.artist-page__artist-name-rounddetails {
+    margin-top: 10px; 
+    font-size: 20px; 
+    font-family: "Neue Plak W01 Regular";
+}
