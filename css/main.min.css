@@ -220,9 +220,13 @@ table {
 .artist-page__grid-album-name,
 .artist-page__grid-number,
 .menu__info,
-.menu__title,
+.menu__description,
 .neue-plak--regular {
     font-family: "Neue Plak W01 Regular"
+}
+
+.menu__title {
+    font-family: 'Neue Plak W01 Extended SemiBold'
 }
 
 .artist-page__artist-name,
@@ -230,9 +234,8 @@ table {
     font-family: "Neue Plak W01 Wide ExtraBlack"
 }
 
-.menu__description,
 .neue-plak--extended-semibold {
-    font-family: 'Neue Plak W01 Extended SemiBold'
+    font-family: 'Neue Plak W01 Regular'
 }
 
 .neue-plak--semibold {
@@ -765,7 +768,7 @@ input:focus {
 }
 
 .menu__title {
-    font-size: 21px;
+    font-size: 26px;
     line-height: 1em;
     font-weight: 400;
     margin: 0 0 40px;
@@ -774,9 +777,10 @@ input:focus {
 
 .menu__description {
     margin: 0;
-    font-size: 21px;
+    font-size: 14px;
     font-weight: 400;
-    line-height: 1.12em
+    line-height: 1.12em;
+    text-align: justify;
 }
 
 @media all and (min-width:1005px) {
@@ -787,10 +791,10 @@ input:focus {
 
 @media all and (min-width:1105px) {
     .menu__about-container {
-        width: 380px
+        width: 400px
     }
     .menu__description {
-        font-size: 24px
+        font-size: 20px
     }
 }
 
@@ -1596,10 +1600,10 @@ input:focus {
 
 .artist-list-grid__title {
     text-align: left;
-    font-size: 21px;
+    font-size: 24px;
     line-height: 1em;
     font-weight: 400;
-    margin: 0 0 40px;
+    margin: 0 0 45px;
     padding: 0;
     color: #4B6464
 }
@@ -1640,7 +1644,7 @@ input:focus {
 
 @media all and (min-width:375px) {
     .artist-list-grid__link {
-        font-size: 14px
+        font-size: 16px
     }
 }
 

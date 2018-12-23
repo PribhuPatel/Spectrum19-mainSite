@@ -1,61 +1,96 @@
 /* Event Title */
-
 .artist-page__artist-name-title {
-    font-family: "Neue Plak W01 Extended SemiBold";
-    margin-top: 20px; 
-    font-size: 30px;
+  font-family: "Neue Plak W01 Extended SemiBold";
+  margin-top: 20px;
+  font-size: 30px;
 }
 
 /* Event About Details */
-
 .artist-page__artist-name-about {
-    margin-top: 10px; 
-    font-size: 20px; 
-    font-family: "Neue Plak W01 Regular";
-    padding-left: 20px; 
+  margin-top: 10px;
+  font-size: 20px;
+  font-family: "Neue Plak W01 Regular";
+  padding-left: 20px;
 }
 
 /* Rules Title */
-
 .artist-page__artist-name-rules {
-    margin-top: 20px; 
-    font-size: 30px;
-    font-family: "Neue Plak W01 Extended SemiBold";
+  margin-top: 20px;
+  font-size: 30px;
+  font-family: "Neue Plak W01 Extended SemiBold";
 }
 
 /* Rules Details */
 .artist-page__artist-name-rulesdetails {
-    margin-top: 10px; 
-    font-size: 20px; 
-    font-family: "Neue Plak W01 Regular";
+  margin-top: 10px;
+  font-size: 20px;
+  font-family: "Neue Plak W01 Regular";
 }
 
 /* Round Title */
 .artist-page__artist-name-roundtitle {
-    margin-top: 10px; 
-    font-size: 25px;
-    font-family: "Neue Plak W01 Extended SemiBold";
-    padding-top: 10px;
-    padding-left: 20px;
+  margin-top: 10px;
+  font-size: 25px;
+  font-family: "Neue Plak W01 Extended SemiBold";
+  padding-top: 10px;
+  padding-left: 20px;
 }
 
 /* Round Description */
 .artist-page__artist-name-rounddetails, .artist-page__artist-name-rounddetails-underlinetext {
-    margin-top: 10px; 
-    font-size: 20px; 
-    font-family: "Neue Plak W01 Regular";
-    padding-left: 30px;
-    text-align: justify;
+  margin-top: 10px;
+  font-size: 20px;
+  font-family: "Neue Plak W01 Regular";
+  padding-left: 30px;
+  text-align: justify;
 }
 
 .artist-page__underline {
-    margin-top: 5px;
-    height: 3px;
-    width: 50px;
-    background-color: #4B6464;
+  margin-top: 5px;
+  height: 3px;
+  width: 50px;
+  background-color: #4B6464;
 }
 
 .artist-page__artist-name-rounddetails-underlinetext {
-    text-decoration: underline; 
-    text-decoration-color: #4B6464;
+  text-decoration: underline;
+  text-decoration-color: #4B6464;
+}
+
+.artist-list-grid__about-logo-adit {
+  margin-top: 100px;
+  margin-left: -150px;
+  padding-right: 50px;
+}
+
+.artist-list-grid__about-logo-cvm {
+  margin-bottom: 5px;
+  padding-left: 25px;
+}
+
+@media only screen and (max-width: 560px) {
+  .artist-list-grid__about-logo-adit {
+    margin-top: 100px;
+    margin-left: 75px;
+    padding-right: 50px;
+  }
+
+  .artist-list-grid__about-logo-cvm {
+    margin-top: 100px;
+    padding-left: 50px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .artist-list-grid__about-logo-adit {
+    margin-top: 100px;
+    margin-left: 75px;
+    padding-right: 50px;
+  }
+
+  .artist-list-grid__about-logo-cvm {
+    margin-top: 50px;
+    margin-left: 25px;
+    padding-left: 50px;
+  }
 }
