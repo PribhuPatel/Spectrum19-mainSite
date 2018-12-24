@@ -1,5 +1,3 @@
-@import url(http://fast.fonts.net/t/1.css?apiType=css&projectid=649fb35e-d728-4c6a-b5ca-4ff6ccbbc693);
-
 .album-container,
 .header {
     top: 0;
@@ -173,38 +171,38 @@ table {
 
 @font-face {
     font-family: "Neue Plak W01 Regular";
-    src: url(fonts/a3d9d646-58c2-4bbd-90ef-4a3961ff8ae8.eot?#iefix);
-    src: url(fonts/a3d9d646-58c2-4bbd-90ef-4a3961ff8ae8.eot?#iefix) format("eot"), url(fonts/d3335a6e-858a-4bb4-b96d-99238f023ca5.woff2) format("woff2"), url(fonts/9cf260dd-ed6f-46cd-9e3b-ad324e1bca8a.woff) format("woff"), url(fonts/a0c574ec-eab0-45f4-87c9-dbe3b9d1a9b4.ttf) format("truetype")
+    src: url(http://spectrum.adit.ac.in/fonts/a3d9d646-58c2-4bbd-90ef-4a3961ff8ae8.eot?#iefix);
+    src: url(http://spectrum.adit.ac.in/fonts/a3d9d646-58c2-4bbd-90ef-4a3961ff8ae8.eot?#iefix) format("eot"), url(http://spectrum.adit.ac.in/fonts/d3335a6e-858a-4bb4-b96d-99238f023ca5.woff2) format("woff2"), url(http://spectrum.adit.ac.in/fonts/9cf260dd-ed6f-46cd-9e3b-ad324e1bca8a.woff) format("woff"), url(http://spectrum.adit.ac.in/fonts/a0c574ec-eab0-45f4-87c9-dbe3b9d1a9b4.ttf) format("truetype")
 }
 
 @font-face {
     font-family: "Neue Plak W01 SemiBold";
-    src: url(fonts/772f1975-5a1b-4725-bc2e-225794e52d32.eot?#iefix);
-    src: url(fonts/772f1975-5a1b-4725-bc2e-225794e52d32.eot?#iefix) format("eot"), url(fonts/468f9912-6b29-492e-9382-4fe2f45b4940.woff2) format("woff2"), url(fonts/fd9dfea4-8d51-44fa-8c13-0b6ebca873c4.woff) format("woff"), url(fonts/9c905f34-734c-4598-a0d9-6870a5a0361f.ttf) format("truetype")
+    src: url(http://spectrum.adit.ac.in/fonts/772f1975-5a1b-4725-bc2e-225794e52d32.eot?#iefix);
+    src: url(http://spectrum.adit.ac.in/fonts/772f1975-5a1b-4725-bc2e-225794e52d32.eot?#iefix) format("eot"), url(http://spectrum.adit.ac.in/fonts/468f9912-6b29-492e-9382-4fe2f45b4940.woff2) format("woff2"), url(http://spectrum.adit.ac.in/fonts/fd9dfea4-8d51-44fa-8c13-0b6ebca873c4.woff) format("woff"), url(http://spectrum.adit.ac.in/fonts/9c905f34-734c-4598-a0d9-6870a5a0361f.ttf) format("truetype")
 }
 
 @font-face {
     font-family: "Neue Plak W01 Extended SemiBold";
-    src: url(fonts/016bba35-cbd7-4d8d-b13c-42462ad8cf18.eot?#iefix);
-    src: url(fonts/016bba35-cbd7-4d8d-b13c-42462ad8cf18.eot?#iefix) format("eot"), url(fonts/a9bc9985-89d1-45e8-975f-3cadb75e72f7.woff2) format("woff2"), url(fonts/0f7628f2-cac1-4401-ab77-4957345acce2.woff) format("woff"), url(fonts/9b79b3eb-3c60-47bd-8ff6-43f7779e8db0.ttf) format("truetype")
+    src: url(http://spectrum.adit.ac.in/fonts/016bba35-cbd7-4d8d-b13c-42462ad8cf18.eot?#iefix);
+    src: url(http://spectrum.adit.ac.in/fonts/016bba35-cbd7-4d8d-b13c-42462ad8cf18.eot?#iefix) format("eot"), url(http://spectrum.adit.ac.in/fonts/a9bc9985-89d1-45e8-975f-3cadb75e72f7.woff2) format("woff2"), url(http://spectrum.adit.ac.in/fonts/0f7628f2-cac1-4401-ab77-4957345acce2.woff) format("woff"), url(http://spectrum.adit.ac.in/fonts/9b79b3eb-3c60-47bd-8ff6-43f7779e8db0.ttf) format("truetype")
 }
 
 @font-face {
     font-family: "Neue Plak W01 Wide Regular";
-    src: url(fonts/c1a5267f-4b26-4b80-bcff-407c72a506f2.eot?#iefix);
-    src: url(fonts/c1a5267f-4b26-4b80-bcff-407c72a506f2.eot?#iefix) format("eot"), url(fonts/e0f15b9d-2279-4745-99d7-7ed4c3550348.woff2) format("woff2"), url(fonts/d5745e95-af44-4815-a33c-423319b0250e.woff) format("woff"), url(fonts/d1e7f40e-fd2b-4598-a30c-f81e031abf2f.ttf) format("truetype")
+    src: url(http://spectrum.adit.ac.in/fonts/c1a5267f-4b26-4b80-bcff-407c72a506f2.eot?#iefix);
+    src: url(http://spectrum.adit.ac.in/fonts/c1a5267f-4b26-4b80-bcff-407c72a506f2.eot?#iefix) format("eot"), url(http://spectrum.adit.ac.in/fonts/e0f15b9d-2279-4745-99d7-7ed4c3550348.woff2) format("woff2"), url(http://spectrum.adit.ac.in/fonts/d5745e95-af44-4815-a33c-423319b0250e.woff) format("woff"), url(http://spectrum.adit.ac.in/fonts/d1e7f40e-fd2b-4598-a30c-f81e031abf2f.ttf) format("truetype")
 }
 
 @font-face {
     font-family: "Neue Plak W01 Wide Bold";
-    src: url(fonts/c92a2088-7ad4-448b-b034-33a4362c5532.eot?#iefix);
-    src: url(fonts/c92a2088-7ad4-448b-b034-33a4362c5532.eot?#iefix) format("eot"), url(fonts/fc32a17c-8d11-4019-8e99-b8016e2073ea.woff2) format("woff2"), url(fonts/13ed11cd-b0de-4b39-b872-a904e3b9b7bd.woff) format("woff"), url(fonts/5626dc9b-da06-497c-a006-ee3782836e9b.ttf) format("truetype")
+    src: url(http://spectrum.adit.ac.in/fonts/c92a2088-7ad4-448b-b034-33a4362c5532.eot?#iefix);
+    src: url(http://spectrum.adit.ac.in/fonts/c92a2088-7ad4-448b-b034-33a4362c5532.eot?#iefix) format("eot"), url(http://spectrum.adit.ac.in/fonts/fc32a17c-8d11-4019-8e99-b8016e2073ea.woff2) format("woff2"), url(http://spectrum.adit.ac.in/fonts/13ed11cd-b0de-4b39-b872-a904e3b9b7bd.woff) format("woff"), url(http://spectrum.adit.ac.in/fonts/5626dc9b-da06-497c-a006-ee3782836e9b.ttf) format("truetype")
 }
 
 @font-face {
     font-family: "Neue Plak W01 Wide ExtraBlack";
-    src: url(fonts/c17c3ddd-81a2-463a-b97e-5666b284cf05.eot?#iefix);
-    src: url(fonts/c17c3ddd-81a2-463a-b97e-5666b284cf05.eot?#iefix) format("eot"), url(fonts/3e9b0642-969c-4734-a046-c0f147ad7c09.woff2) format("woff2"), url(fonts/7e677705-f71c-4184-a9de-2dffccce0bab.woff) format("woff"), url(fonts/2287c984-a296-4f59-9286-fc3e48ded2aa.ttf) format("truetype")
+    src: url(http://spectrum.adit.ac.in/fonts/c17c3ddd-81a2-463a-b97e-5666b284cf05.eot?#iefix);
+    src: url(http://spectrum.adit.ac.in/fonts/c17c3ddd-81a2-463a-b97e-5666b284cf05.eot?#iefix) format("eot"), url(http://spectrum.adit.ac.in/fonts/3e9b0642-969c-4734-a046-c0f147ad7c09.woff2) format("woff2"), url(http://spectrum.adit.ac.in/fonts/7e677705-f71c-4184-a9de-2dffccce0bab.woff) format("woff"), url(http://spectrum.adit.ac.in/fonts/2287c984-a296-4f59-9286-fc3e48ded2aa.ttf) format("truetype")
 }
 
 .artist-page__container:after,
