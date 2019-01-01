@@ -58,39 +58,19 @@
 }
 
 .artist-list-grid__about-logo-adit {
-  margin-top: 100px;
-  margin-left: -150px;
-  padding-right: 50px;
+  margin-top: 75px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 .artist-list-grid__about-logo-cvm {
-  margin-bottom: 5px;
-  padding-left: 25px;
+  margin-top: 25px; 
 }
 
-@media only screen and (max-width: 560px) {
-  .artist-list-grid__about-logo-adit {
-    margin-top: 100px;
-    margin-left: 75px;
-    padding-right: 50px;
-  }
-
-  .artist-list-grid__about-logo-cvm {
-    margin-top: 100px;
-    padding-left: 50px;
-  }
+.menu__image-container {
+  margin: 50px 20px;
+  width: 300px;
 }
 
-@media only screen and (max-width: 425px) {
-  .artist-list-grid__about-logo-adit {
-    margin-top: 100px;
-    margin-left: 75px;
-    padding-right: 50px;
-  }
-
-  .artist-list-grid__about-logo-cvm {
-    margin-top: 50px;
-    margin-left: 25px;
-    padding-left: 50px;
-  }
-}
