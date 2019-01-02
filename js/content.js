@@ -312,29 +312,27 @@ var ecell = {
   ]
 };
 
-var informationtech = {
+var informationtech = {//done 4 events(final Destination,Find it fix it,code less,clash of coders)
   "name": "Information Technology",
   "slug": "it",
   "events": [{
-      "name": "Final Destination",
+      "name": "Final Destination 4.0",
       "event": "final-destination",
-      "judgingcriteria": "Lorem Ipsum is simply dumEvent Co-ordinator Name text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dumEvent Co-ordinator Name text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."             ,"rounds": {
+      "judgingcriteria": "First come first serve",
+      "rounds": {
         "round1": {
-          "description": "It would start by submitting the answer of given clue at the end of contest web link (URL), which will lead you through the series of clues. Every time to get the next clue, you will have to enter the answer of given clue at the end of contest web link.",
-          "judgingcriteria": "1st round: Top 30 teams will be selected based on their score and time."
+          "description": "It would start by submitting the answer of given clue at the end of contest web link (URL), which will lead you through the series of clues. Every time to get the next clue, you will have to enter the answer of given clue at the end of contest web link. There will not be any missleading answers .This round is online based and will be conducted 1 day before tech fest.",
         },
         "round2": {
           "description": "It will be same as round 1 except for that it will have miss-leading answers. The exact answer will reduce the length of path. The miss-leading answers will lead you to loops or longer path.",
-          "judgingcriteria": "2nd round: Top 10 teams will be selected based on their score and time."
         },
         "round3": {
-          "description": "It will be same as round 2 except for that, the miss-leading answers may also lead you to dead ends.",
-          "judgingcriteria": "3rd round: Winner and runner-up based on score and time."
+          "description": "It will be same as round 2 except for that, the missleading answers may also lead you to dead ends. End of round 3 will be marked by successfully opening the 'FINAL DESTINATION' page.",
         }
       },
       "coordinator": [{
-        "name": "Dhruv Dalwadi",
-        "phone": 9876543210
+        "name": "Gajera Jalak",
+        "phone":  9429027939
       }],
       "event_description": "You will be given a clue to begin your hunt for FINAL DESTINATION through the barrier of 3 rounds. The clues are not designed to test your searching skills (google), instead you will have to identify the right key from the clue to unlock the answer. The game gets tougher as you go ahead. Beware of traps!",
       "album_image": {
@@ -359,27 +357,25 @@ var informationtech = {
       }
     },
     {
-      "name": "The Hunger Games",
-      "event": "the-hunger-games",
-      "judgingcriteria": "Lorem Ipsum is simply dumEvent Co-ordinator Name text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dumEvent Co-ordinator Name text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."             ,"rounds": {
+      "name": "Find IT Fix IT",
+      "event": "find-it-fix-it",
+      "judgingcriteria": "Time Taken for completion of given tasks.",
+      "rounds": {
         "round1": {
-          "description": "Quiz round:This is simple quiz round for all the teams. Beware!! There will be many traps.",
-          "judgingcriteria": "Time and score"
+          "description": "From the multiple QR codes generate a single programming code. Now this Multiple codes can be available in a single folder. Participants have to build single programming code from obtained codes. If multiple teams generated same code and comes simultaneously, then the one who comes first will be qualified for next round and rest will have to find another code.",
         },
         "round2": {
-          "description": "Challenge Round : In this round, the score of quiz points will be displayed to opponents. Further, they will be given list of programs assigned with respective points. The players will gain points as they complete the programs. During any point in the game, any team can challenge other teams. If the challenging team has more points (points from writing programs) compared to opponent team then the opponent team is out of the game else the challenging team is out of game.",
-          "judgingcriteria": "Time and score"
+          "description": "Bunch of [ .exe ] file of language c will be given to the teams. The sample input / output will be provided. They have to find the file and have to perform a programming round of that file generating a runnable code.",
         },
         "round3": {
-          "description": "Now this round consists of programs. Each program has specific golden points assigned to it. The teams will auction for the programs using the points they earned in round 2. And finally the team with maximum golden points win.",
-          "judgingcriteria": "Time and score"
+          "description": "Time based round. 10 minutes will be given to the participants for each problem. With the help of VR box, participants will solve the given 3 codes that will have error. After solving the code a sort tempered box will generate on the screen and participant have to point it to get +10 seconds which will be added to their problem solving time. Multiple box can be generated. Participants have to find it around the screen by their own. Box can be anywhere on the screen. Now this obtained 3 codes will give a digit as output. Which will be a code (clue) for a QR code which can be displayed anywhere in the lab, participants have to find the 3 QR codes. ",
         }
       },
       "coordinator": [{
-        "name": "Harsh Patel",
-        "phone": 9876543210
+        "name": "Neel Patel",
+        "phone": 7226981519
       }],
-      "event_description": "All the teams will be given a common list of programs assigned with specific points respectively. The team will gain points by completing the programs.",
+      "event_description": "A treasurer to your knowledge, a handy to your skill, a google to your task, a code to your program, a self tutor to your error, an eye to your VR and last but not least is speed to your all implementation is what Find It and Fix It is.",
       "album_image": {
         "ID": 250,
         "id": 250,
@@ -402,27 +398,25 @@ var informationtech = {
       }
     },
     {
-      "name": "Game of Codes",
-      "event": "game-of-codes",
-      "judgingcriteria": "Lorem Ipsum is simply dumEvent Co-ordinator Name text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dumEvent Co-ordinator Name text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."             ,"rounds": {
+      "name": "Code-Less",
+      "event": "code-less",
+      "judgingcriteria": "Time taken for completion of given tasks.",
+      "rounds": {
         "round1": {
-          "description": "It is puzzle quiz round based on C and C++. Participant will be given the list of questions common to all. On every correct answer they will be given one part of picture among the nine parts allocate to each team. They have to identify the picture in minimum time. Based on that, 20 teams will move to next round.",
-          "judgingcriteria": "Time & Speed"
+          "description": "Team have to Reduce the length of 3 Pre-given code. Total 3 Codes Will be given, you have to do Your Best to Make it Shorter.",
         },
         "round2": {
-          "description": "It is the battle round. Each team have to bet with any 5 teams. At first, 5 points will be given to every team. On every battle they have to code the given program. Winning team will earn 5 points while opponent team will lose 5 points. At last top 5 teams will move to final round.",
-          "judgingcriteria": "Time & Speed"
+          "description": "You should write Program of the 2 Pre-given Definition including least number of characters as possible. Then You Will get 2 output. After complete 2Nd Round team will get Total 5 numeric output (3 1St Round Output + 2 2Nd Round Output) merge all output and get  SPECTRUM’19 one 5 number digit. Your Created Program Should Fit the Given Definition.",
         },
         "round3": {
-          "description": "Final round is treasure hunt round based on coding. At First, teams will be given one particular PC in which they will face one question on the screen. To start their treasure hunt round they will solve the question followed by one program with some errors in it. Participants will debug given program segment and will find the output. The output will lead to another program. They have to do the same procedure till they reach to the last clue.",
-          "judgingcriteria": "Time & Speed"
+          "description": "You have to Convert that 5 Digit number in Binary number which is number is stick on any lab of computer already, after Reach particular Computer Team have to solve one clue and get one Password of that Particular Computer and Open it Using that Password. Then Coding part,3 Output and Hint already given and You should Write code in minimum length of Statement and characters.",
         }
       },
       "coordinator": [{
-        "name": "Hrishika Vachhani",
-        "phone": 9876543210
+        "name": "Sudani Chintan",
+        "phone": 7698611653
       }],
-      "event_description": "Event is all about participantâ€™s basic programming skills and how smart enough are they to solve the clues and puzzles of Current trend.",
+      "event_description": "Code-less is the interesting Event with a Less the code and Classic Treasure Clue. Round 1, Team have to Reduce the length of 3 Pre-given code. Round 2, You should write Program of the 2 Pregiven Definition including least number of characters as possible. Round 3, You have to Convert that 5 Digit number in Binary number and Coding part,3 Output and Hint already Given and You should Write code in minimum length of Statement and characters.",
       "album_image": {
         "ID": 250,
         "id": 250,
@@ -445,27 +439,25 @@ var informationtech = {
       }
     },
     {
-      "name": "Google Hunters",
-      "event": "google-hunters",
-      "judgingcriteria": "Lorem Ipsum is simply dumEvent Co-ordinator Name text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dumEvent Co-ordinator Name text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."             ,"rounds": {
+      "name": "CLASH OF CODERS",
+      "event": "clash-of-coders",
+      "judgingcriteria": "Round 1 will be judged on the basis of more number of the common words both the team member would have found. Round 2 and 3 will be judged on the basis of time. Team which will complete the task fastest will be the first and so on. ",
+      "rounds": {
         "round1": {
-          "description": "In this round images will be given which will be inter-linked to each other giving out the single word.",
-          "judgingcriteria": "Time and Accuracy."
+          "description": "Will initiate the event with an interesting task to find technological words from the given puzzle. This puzzle will be different for all teams. Both the team members will have to search the words individually. At the end, the team members who will have more common words from the given puzzle will get a chance for the next round.",
         },
         "round2": {
-          "description": "This round will be totally time based. 10 tune (tune will be like startup of the window OS ) will be given to the participant. They have to recognize the maximum no. of tune in the given time to clear the round.",
-          "judgingcriteria": "Time and Accuracy."
+          "description": "Second round requires two things in you, flexible body and logical thinking. Firstly a task will be given to you and after that task we will give you a problem statement. You will have to generate a C program to solve the problem. But there is a twist in the tale! The problem that you receive will be based on your performance in the task given before. What will be the task but? Let it be a suspense which will be revealed on the day of round 2. So till then stay excited!",
         },
         "round3": {
-          "description": "PDF will be provided to the participant which will be password protected. In order to open the PDF they have to solve the given Riddle. After opening PDF they will get a surprise that they have to cross to achive the goal.",
-          "judgingcriteria": "Time and Accuracy."
+          "description": "The Final round of the event will be the ultimate challenge for every team. Two serves better than one! This comes true in this round. Rest of the description you will get to know when time comes.",
         }
       },
       "coordinator": [{
-        "name": "My name",
+        "name": "Kanan Trivedi",
         "phone": 9876543210
       }],
-      "event_description": "This event is based on Google search. This is a simple surfing event. Participant should have knowledge of how to search on the Google. This have to clear three rounds. This is time based game.",
+      "event_description": "Here we come with a Clash of Coders instead of Clash of Clans. So wizards have a look in brief to survive. A technical team event which will test your programming and logical skills. Chances of winning this event are directly proportional to the speed in which your mind works and how one can cultivate his own mindset and help each-other to be the Champion of Codes. Think innovative, Crack codes and be ‘The Winner’. Prepare yourself in the best possible way to crack this whole event.",
       "album_image": {
         "ID": 250,
         "id": 250,
@@ -1549,28 +1541,24 @@ var electrical = {
 var computer = {
   "name": "Computer Engineering",
   "slug": "cp",
-  "events": [{
-      "name": "MindSpark",
-      "event": "mindspark",
-      "judgingcriteria": "Lorem Ipsum is simply dumEvent Co-ordinator Name text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dumEvent Co-ordinator Name text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."             ,"rounds": {
+  "events": [
+    {
+      "name": "PUBG mania",
+      "event": "pubg-mania",
+      "judgingcriteria": " efficiency of algorithm skillsand knowledge of the game.",
+      "rounds": {
         "round1": {
-          "description": "MiLorem Ipsum is simply dumEvent Co-ordinator Name text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dumEvent Co-ordinator Name text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-          "judgingcriteria": "Lorem Ipsum is simply dumEvent Co-ordinator Name text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dumEvent Co-ordinator Name text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+          "description": " The questions would be totally dependent on the PUBG Mobile game. Your knowledge about the game will be tested",
         },
         "round2": {
-          "description": "Lorem Ipsum is simply dumEvent Co-ordinator Name text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dumEvent Co-ordinator Name text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-          "judgingcriteria": "Lorem Ipsum is simply dumEvent Co-ordinator Name text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dumEvent Co-ordinator Name text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-        },
-        "round3": {
-          "description": "Lorem Ipsum is simply dumEvent Co-ordinator Name text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dumEvent Co-ordinator Name text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-          "judgingcriteria": "Lorem Ipsum is simply dumEvent Co-ordinator Name text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dumEvent Co-ordinator Name text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+          "description": " having a mixture of computer skills (algorithm-based problems like minimum spanning tree, 8 queen problem etc.) in form of PUBG theme. Winner  will be selected on the basis of solution to the answers and the timings.",
         }
       },
       "coordinator": [{
-        "name": "Event Co-ordinator Name name",
-        "phone": 9876543210
+        "name": "Macwan Aleen",
+        "phone": 9409402777
       }],
-      "event_description": "Computer Goggling Skills, that’s all you need to bring for this event. This event brings the world of technology and logic together in an exicting turn. Common sense is not that common these days. Let’s see if you have what it takes!",
+      "event_description": "This event is about your knowledge and skills in the PUBG Mobile game. Some basic questions that are needed to be solved using your gaming and intellectual knowledge",
       "album_image": {
         "ID": 250,
         "id": 250,
@@ -1593,20 +1581,17 @@ var computer = {
       }
     },
     {
-      "name": "Resolver Rubica",
-      "event": "resolver-rubica",
-      "judgingcriteria": "Lorem Ipsum is simply dumEvent Co-ordinator Name text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dumEvent Co-ordinator Name text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."             ,"rounds": {
+      "name": "E-Pirates 2.0",
+      "event": "e-pirates",
+      "judgingcriteria": "In first two rounds participants who reach the final location first will be shortlisted and for the last round the  one who solves the codes first from the folder maze will win. "             ,"rounds": {
         "round1": {
-          "description": "Lorem Ipsum is simply dumEvent Co-ordinator Name text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dumEvent Co-ordinator Name text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-          "judgingcriteria": "Lorem Ipsum is simply dumEvent Co-ordinator Name text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dumEvent Co-ordinator Name text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+          "description": "An envelope will be given to all the contestant which will lead them to a place where they will find a QR code. On scanning the code they will get a program to solve whose answer will lead them to another QR code location.",
         },
         "round2": {
-          "description": "Lorem Ipsum is simply dumEvent Co-ordinator Name text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dumEvent Co-ordinator Name text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-          "judgingcriteria": "Lorem Ipsum is simply dumEvent Co-ordinator Name text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dumEvent Co-ordinator Name text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+          "description": "Second round will be similar as first round with tougher clues.",
         },
         "round3": {
-          "description": "Lorem Ipsum is simply dumEvent Co-ordinator Name text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dumEvent Co-ordinator Name text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-          "judgingcriteria": "Lorem Ipsum is simply dumEvent Co-ordinator Name text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dumEvent Co-ordinator Name text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+          "description": "This will be a folder maze round, where they will find clue (text file) which will lead them to another clue which will be different folder path. At last they will get a final text file where they need to solve a small problem and give its answer.",
         }
       },
       "coordinator": [{
@@ -2009,7 +1994,8 @@ var civil = {
           "judgingcriteria": "Lorem Ipsum is simply dumEvent Co-ordinator Name text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dumEvent Co-ordinator Name text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
         }
       },
-      "coordinator": [{
+      "coordinator": [
+        {
         "name": "Event Co-ordinator Name name",
         "phone": 9876543210
       }],
