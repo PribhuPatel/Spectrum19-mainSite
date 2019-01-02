@@ -1,3 +1,20 @@
+.spectrum2019title {
+  display: flex; 
+  flex-direction: row; 
+  justify-content: flex-end;
+  align-items: flex-start;
+  width: 100vw; 
+  position: absolute !important;
+  transform: translateY(2.5vh) translateX(-3.8vw);
+  font-family: "Neue Plak W01 Wide ExtraBlack";
+  font-size: 5vh; 
+  background: -webkit-linear-gradient(#232526, #414345);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-bottom: 10px; 
+  
+}
+
 /* Event Title */
 .artist-page__artist-name-title {
   font-family: "Neue Plak W01 Extended SemiBold";
@@ -98,7 +115,7 @@
     display: none;
   }
   .home-list__button-container {
-    margin-top: 20vh !important; 
+    /* margin-top: 20vh !important;  */
     margin-left: 39vw !important; 
     display: flex !important; 
     flex-direction: column !important; 
