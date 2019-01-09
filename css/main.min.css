@@ -141,7 +141,7 @@ section {
 
 body {
     line-height: 1;
-    background-color: #f9faf4;
+    background-color: #15191c;
     color: #4B6464;
     -webkit-text-size-adjust: 100%
 }
@@ -569,43 +569,43 @@ input:focus {
 }
 
 .home-list__button:nth-child(1) .home-button__text {
-    color: #FFC94C
+    color: #F7797D
 }
 
 .home-list__button:nth-child(2) .home-button__text {
-    color: #FEC056
+    color: #f9917f
 }
 
 .home-list__button:nth-child(3) .home-button__text {
-    color: #FCB85F
+    color: #faa981
 }
 
 .home-list__button:nth-child(4) .home-button__text {
-    color: #FAAF66
+    color: #fac684
 }
 
 .home-list__button:nth-child(5) .home-button__text {
-    color: #F9A66C
+    color: #eee09a
 }
 
 .home-list__button:nth-child(6) .home-button__text {
-    color: #F89E70
+    color: #e2eab1
 }
 
 .home-list__button:nth-child(7) .home-button__text {
-    color: #F79574
+    color: #d9f0be
 }
 
 .home-list__button:nth-child(8) .home-button__text {
-    color: #F58D78
+    color: #cff7ce
 }
 
 .home-list__button:nth-child(9) .home-button__text {
-    color: #F4847B
+    color: #ccf8d3
 }
 
 .home-list__button:nth-child(10) .home-button__text {
-    color: #F37B7E
+    color: #c6ffdd
 }
 
 .artist-overlay {

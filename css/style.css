@@ -8,7 +8,10 @@
   /* transform: translateY(2.5vh) translateX(-5vw); */
   font-family: "Neue Plak W01 Wide ExtraBlack";
   font-size: 5vh; 
-  background: -webkit-linear-gradient(#232526, #414345);
+  /* background-color: #dfbc23; */
+  /* background-color: #b02460; */
+  /* background-color: #1babaf; */
+  background: linear-gradient(to right, #dfbc23, #b02460,  #1babaf);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
